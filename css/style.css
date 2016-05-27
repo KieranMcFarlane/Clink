@@ -281,7 +281,8 @@ nav li a{
 
   max-width: 104px;
   margin: 0.7025rem 0;
-  margin-right: 3.125rem;
+  /*margin-right: 3.125rem;*/
+    margin-right: 12.125rem;
 }
 
   .nav-block-1 img {
