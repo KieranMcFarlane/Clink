@@ -279,8 +279,9 @@ nav li a{
 }
 
 .nav-block-1 > a >img{
-    width: 9.375rem;
-    margin: 1.0625rem 0;
+
+    max-width: 134px;
+    margin: 1.2025rem 0;
     margin-right: 3.125rem;
 }
 
@@ -596,7 +597,7 @@ header{
   background-image: url(../img/bar-smith-156.jpg);
   height: 100vh;
   background-size: cover;
-  min-height: 36rem;
+  min-height: 32rem;
   overflow: hidden;
   width: 100%;
 }
@@ -926,7 +927,7 @@ header .button {
 .why-trend img {
     width: 10.625rem;
     position: relative;
-    top: 0.875rem;
+    top: 1.105rem;
     left: 1.5rem;
 }
 
@@ -1214,7 +1215,8 @@ header .button {
   font-size: 1.5rem;
   line-height: 3rem;
   margin-top: -1.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.75rem;
+  /*margin-bottom: 0.75rem;*/
 
 }
 
