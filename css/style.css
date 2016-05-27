@@ -238,7 +238,6 @@ nav li a{
     text-align: center;
 }
 
-
 .show > .navmenu > a {
     position: relative;
     z-index: 110;
@@ -280,9 +279,9 @@ nav li a{
 
 .nav-block-1 > a >img{
 
-    max-width: 134px;
-    margin: 1.2025rem 0;
-    margin-right: 3.125rem;
+  max-width: 104px;
+  margin: 0.7025rem 0;
+  margin-right: 3.125rem;
 }
 
   .nav-block-1 img {
@@ -509,6 +508,8 @@ display: none;
     width: 7.5625rem;
     margin: 1.3125rem 0;
     margin-right: 0.625rem;
+    position: relative;
+    top: -9px;
 }
 .nav-block-2{
   width: 44.089834516%;
@@ -597,7 +598,7 @@ header{
   background-image: url(../img/bar-smith-156.jpg);
   height: 100vh;
   background-size: cover;
-  min-height: 32rem;
+  min-height: 40rem;
   overflow: hidden;
   width: 100%;
 }
@@ -614,7 +615,35 @@ header .button{
   background-color: white;
 }
 
+  .logo-title p{
+    width: 100%;
+    margin-bottom: 1.9375rem;
+    margin: 0 auto;
+  }
+
 /*Header Breakpoints*/
+@media (min-width: 43.75rem) {
+
+  header .button{
+  color: #2d323e;
+  background-color: white;
+  position: relative;
+  left: -49px;
+}
+
+  .logo-title p{
+    font-size: 18px;
+    line-height: 1.8;
+    position: relative;
+    left: -49px;
+    width: 520px;
+  }
+
+  .logo-title img{
+    position: relative;
+    left: -39px;
+  }
+}
 
 @media (max-width: 43.75rem) {
 
@@ -637,7 +666,7 @@ header .button {
     z-index: 100;
     margin: 0 auto;
     text-align: center;
-    
+    top: 70px;
     left: 0;
     max-width: 92%;
 }
@@ -924,13 +953,21 @@ header .button {
 
 }
 
-.why-trend img {
+div.why-trend-title div.why-trend-relative img{
+  width: 10.625rem;
+  max-width: 137px;
+  position: relative;
+  top: 1.79rem;
+  left: 0.8rem;
+}
+
+/*.why-trend img {
     width: 10.625rem;
     position: relative;
     top: 1.105rem;
     left: 1.5rem;
 }
-
+*/
 .why-trend-title{
   text-align: center;
 }
@@ -1012,11 +1049,19 @@ header .button {
     position: relative;
 }
 
-.why-trend img {
+/*.why-trend img {
     width: 10.625rem;
     position: relative;
     top: 0.875rem;
     left: 1.5rem;
+}*/
+
+div.why-trend-title div.why-trend-relative img {
+    width: 10.625rem;
+    max-width: 147px;
+    position: relative;
+    top: 0.995rem;
+    left: 0.75rem;
 }
   
 }
@@ -1320,7 +1365,7 @@ body .venue .bg-strip .strip-parent > .strip > .bg-img {
 /*Map Styles*/
 
 .venue .map {
-  background: black url('../img/venue-map3.png') no-repeat;
+  background: black url('../img/venue-map-barsmith.png') no-repeat;
   background-size: cover;
 
   color: white;

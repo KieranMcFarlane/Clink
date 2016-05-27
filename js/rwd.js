@@ -125,6 +125,9 @@ inviteButton.magnificPopup({
         e.preventDefault();
     });
     
+
+
+    
 //   /*
 //    * Accordion
 //    */
