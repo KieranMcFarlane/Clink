@@ -2116,7 +2116,7 @@ body.sticky .popup-content {
   color: white;
 }
 
-@media screen and (max-width: 460px){
+@media (max-width: 460px){
   .content-style-form label{
     margin-left: 1rem;
   }
