@@ -2116,6 +2116,12 @@ body.sticky .popup-content {
   color: white;
 }
 
+@media screen and (max-width: 460px){
+  .content-style-form label{
+    margin-left: 1rem;
+  }
+}
+
 .content-style-form input[type="submit"]{
   text-transform: uppercase;
   font-family: 'Playfair Display', serif;
