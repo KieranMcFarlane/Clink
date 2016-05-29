@@ -379,7 +379,7 @@ html.show-menu, html.show-menu body { overflow: hidden; }
 html.show-menu .navmenu-outer { opacity: 1; transition: opacity 0.4s linear, z-index 0.4s step-start; -moz-transition: opacity 0.4s linear, z-index 0.4s step-start; -o-transition: opacity 0.4s linear, z-index 0.4s step-start; -webkit-transition: opacity 0.4s linear, z-index 0.4s step-start; z-index: 9000; }
 
 .navmenu-container { display: table; font-size: 1rem; font-weight: 400; line-height: 1.5em; margin: 0 auto; max-width: 73.4375rem; padding: 0 1.25rem; position: relative; }
-#opennav { padding: 1em 0; display: table-cell; vertical-align: middle; }
+#opennav { padding: 1em 0; display: table-cell; vertical-align: middle; position: relative; left: 10px;}
 #opennav li { list-style-type: none; padding: 0.5em 0; }
 #opennav li:first-child { padding-top: 0; }
 #opennav li:last-child { padding-bottom: 0; }
@@ -674,6 +674,12 @@ header .button{
 @media (max-width: 400px) {
   div.logo-title.invite-popup img.logo{
     width: 13.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  div.logo-title.invite-popup img.logo{
+    width: 19.5rem;
   }
 }
 
