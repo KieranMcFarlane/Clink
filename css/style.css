@@ -671,6 +671,12 @@ header .button{
   }
 }
 
+@media (max-width: 400px) {
+  .logo-title img{
+    width: 13.5rem;
+  }
+}
+
 @media (max-width: 43.75rem) {
 
 header p {
