@@ -758,7 +758,8 @@ header .button {
   line-height: 1.5rem;
   letter-spacing: 0.2em;
   font-weight: 400;
-  padding-bottom: 2.5625rem;
+  padding-bottom: 1.5625rem;
+  /*padding-bottom: 2.5625rem;*/
 }
 
 /*.next-event{
@@ -1298,9 +1299,8 @@ div.why-trend-title div.why-trend-relative img {
   font-size: 1.5rem;
   line-height: 3rem;
   margin-top: -1.5rem;
-  margin-bottom: 1.75rem;
-  /*margin-bottom: 0.75rem;*/
-
+  margin-bottom: 0.75rem;
+  /*margin-bottom: 1.75rem;*/
 }
 
 .venue .imgcont{
